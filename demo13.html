@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link href="css/all.css" rel="stylesheet"/>
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <script src="js/bootstrap.bundle.js"></script>
+        <style>
+            #a
+            {
+                background: url(images/1.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <a class="btn btn-danger" data-bs-target="#box" data-bs-toggle="modal">Click ME</a>
+        <div class="modal" id="box">
+            <div class="modal-dialog" >
+                <div class="modal-content " id="a">
+                    
+                        <div class="modal-header">
+                         <div class="h2 text-center">
+                            Admin <b class="text-danger">Login<i class="fa-solid fa-key"></i></b></div>
+                         <button class="btn-close text-bg-danger" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                        <form>
+                            <div class="input-group">
+                            <span class="input-group-text bg-danger "><i class="fa-solid fa-user "></i></span>
+                            <input type="text" placeholder="Username" required class="form-control"/>
+                            </div>
+                            <div class="input-group my-3">
+                                <span class="input-group-text bg-danger "><i class="fa-solid fa-lock "></i></span>
+                                <input type="password" placeholder="Password" required class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="modal-footer ">
+                            <input type="submit" value="Login" class="btn form-control bg-danger"/>
+                            </div>
+                        </form>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
